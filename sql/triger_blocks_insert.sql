@@ -4,4 +4,6 @@ UPDATE coins set coins.block_height=NEW.height , coins.difficulty = NEW.difficul
 
 
 
-/* add cronjob https://pool.xxx/site/checkblocks?id=coind_id to cronjob everyminute */
+/* add cronjob 	wget https://poolsite.com/Cronjob/RunBlocks to cronjob everyminute */
+/* add cronjob 	wget https://poolsite.com/Cronjob/Run to cronjob every two minute */
+/* add cronjob 	wget https://poolsite.com/Cronjob/RunLoop2 to cronjob every minute */
